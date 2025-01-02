@@ -1,0 +1,42 @@
+package org.example.project_demo.Person;
+
+public class Person {
+    private String name;
+    private String job;
+    private int age;
+    private String address;
+
+    public Person(){}
+    public Person(String name, String job, int age, String address) {
+        this.name = name;
+        this.job = job;
+        this.age = age;
+        this.address = address;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+    public String getJob() {
+        return this.job;
+    }
+    public int getAge() {
+        return this.age;
+    }
+    public String getAddress() {
+        return this.address;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setJob(String job) {
+        this.job = job;
+    }
+    public void setAge(int age) {
+        this.age = age;
+    }
+    public void setAddress(String address) {
+        this.address = address;
+    }
+}
+
